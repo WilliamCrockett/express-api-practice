@@ -23,7 +23,7 @@ app.use(middleware['404'])
 // error handlers
 app.use(middleware['error-handler'])
 
-const debug = require('debug')('express-api-practice:server')
+const debug = require('debug')('express-upload-api:server')
 const http = require('http')
 
 /**
